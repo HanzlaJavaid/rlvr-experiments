@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "kernels": {
+    "causal_conv1d_fn": "causal_conv1d.causal_conv1d_interface",
+    "causal_conv1d_update": "causal_conv1d.causal_conv1d_interface",
+    "chunk_gated_delta_rule": "fla.ops.gated_delta_rule.chunk",
+    "fused_recurrent_gated_delta_rule": "fla.ops.gated_delta_rule.fused_recurrent"
+  },
+  "devices": [
+    {
+      "device": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "convolution_max_absolute_error": 0.02933788299560547,
+      "deltanet_gradient_norms": [
+        5.0399098654452246e-06,
+        5.1239417189208325e-06,
+        2.663532541191671e-06
+      ],
+      "convolution_backward": "CausalConv1dFnBackward",
+      "deltanet_backward": "ChunkGatedDeltaRuleFunctionBackward",
+      "finite_nonzero_gradients": true
+    },
+    {
+      "device": 1,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "convolution_max_absolute_error": 0.029972076416015625,
+      "deltanet_gradient_norms": [
+        4.7829971663304605e-06,
+        4.868781616096385e-06,
+        2.51552160079882e-06
+      ],
+      "convolution_backward": "CausalConv1dFnBackward",
+      "deltanet_backward": "ChunkGatedDeltaRuleFunctionBackward",
+      "finite_nonzero_gradients": true
+    },
+    {
+      "device": 2,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "convolution_max_absolute_error": 0.026559829711914062,
+      "deltanet_gradient_norms": [
+        4.995824838260887e-06,
+        5.049012088420568e-06,
+        2.639532795001287e-06
+      ],
+      "convolution_backward": "CausalConv1dFnBackward",
+      "deltanet_backward": "ChunkGatedDeltaRuleFunctionBackward",
+      "finite_nonzero_gradients": true
+    },
+    {
+      "device": 3,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "convolution_max_absolute_error": 0.031049728393554688,
+      "deltanet_gradient_norms": [
+        5.146012881596107e-06,
+        5.1859960876754485e-06,
+        2.661390226421645e-06
+      ],
+      "convolution_backward": "CausalConv1dFnBackward",
+      "deltanet_backward": "ChunkGatedDeltaRuleFunctionBackward",
+      "finite_nonzero_gradients": true
+    }
+  ],
+  "limitation": "Small kernel probe; the policy pilot still must verify full-sequence execution and timing."
+}

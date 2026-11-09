@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "requested_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "model_snapshot": "/workspace/science-gspo-token-g/runs_g/science_G_full_qwen35_4b_4x5090_v1/base_model_snapshot",
+  "data_dir": "/workspace/science-gspo-token-g/data/science_g_qwen35_v1",
+  "model_loader": "qwen3_5_text",
+  "language_model_only": true,
+  "chat_template_kwargs": {
+    "enable_thinking": true
+  }
+}

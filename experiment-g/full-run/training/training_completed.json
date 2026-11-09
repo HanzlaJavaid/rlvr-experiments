@@ -1,0 +1,17 @@
+{
+  "protocol_hash": "dd1b6079315915d6e0716314b3441304281e7a905851a0d10bc04d28ed1e0c95",
+  "global_step": 171,
+  "epoch": 1.0,
+  "session_training_seconds": 30110.006507518003,
+  "training_metrics": {
+    "train_runtime": 30105.7062,
+    "train_samples_per_second": 0.091,
+    "train_steps_per_second": 0.006,
+    "total_flos": 0.0,
+    "train_loss": -0.008663657736795687,
+    "epoch": 1.0
+  },
+  "run_scope": "full_epoch",
+  "evaluation_performed": false,
+  "calibration_performed": false
+}

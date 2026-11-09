@@ -1,0 +1,18 @@
+Test fixtures include source from Hugging Face TRL 1.17.0, licensed under Apache-2.0 (see TRL-LICENSE.txt). Copyright holders and original headers remain in the full vLLM generation fixture. grpo hooks fixture is AST-unparsed for isolated source-contract tests. Source: https://github.com/huggingface/trl/tree/v1.17.0 . Wheel SHA256: 7a41408c43fe74637f3f861e42f798fbc8b8ad343445370fa8d2f14fe50247b1.
+
+Checkpoint-resume source-contract fixtures also contain the following pinned
+Hugging Face methods, dedented one class level. Both use Apache License 2.0;
+the complete license text is included in TRL-LICENSE.txt. The hashes below
+identify the included method fixtures, not the complete upstream source files.
+
+Transformers v5.20.2 Trainer._load_from_checkpoint
+Copyright 2020-present the HuggingFace Inc. team.
+Source: https://raw.githubusercontent.com/huggingface/transformers/v5.20.2/src/transformers/trainer.py
+Fixture: tests/fixtures/transformers_5_20_2_resume.py.txt
+Fixture SHA256: 7948533b99038fc24fee53c45d76a10195de8ab2f7ad7c059b1e17f77a909503
+
+PEFT v0.21.2 PeftModel.save_pretrained
+Copyright 2023-present the HuggingFace Inc. team.
+Source: https://raw.githubusercontent.com/huggingface/peft/v0.21.2/src/peft/peft_model.py
+Fixture: tests/fixtures/peft_0_21_2_save.py.txt
+Fixture SHA256: 0905318ea2a4fdb57c1574284253c57e711452287de2f30e9d1a5bfd8f27183d

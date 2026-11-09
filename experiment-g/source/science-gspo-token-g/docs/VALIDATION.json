@@ -1,0 +1,50 @@
+{
+  "experiment": "G",
+  "validated_at_utc": "2026-11-09T11:20:46.327526+00:00",
+  "scope": "local implementation; offline CPU tests and dry runs only",
+  "python": "3.12.6",
+  "platform": "Darwin",
+  "tests": {
+    "command": "python -m pytest -q",
+    "passed": 325,
+    "subtests_passed": 26,
+    "failed": 0
+  },
+  "checks": {
+    "prompt_reference_isolation": true,
+    "same_trace_for_three_process_judges": true,
+    "thinking_only_process_advantages": true,
+    "gradient_masking": true,
+    "independent_missing_components": true,
+    "truncation_accounting": true,
+    "correctness_only_primary_reward_reporting": true,
+    "f_config_data_protocol_rejected": true,
+    "full_and_pilot_cli_dry_runs": true,
+    "wheel_crc_and_source_match": true,
+    "loss_identical_to_f": true
+  },
+  "f_preservation": {
+    "source": "/Users/hanzlajavaid/Documents/Codex/2026-10-30/what/outputs/science-gspo-token-f",
+    "source_files_sha256_checked": 62,
+    "changed_files": [],
+    "results_index": "/Users/hanzlajavaid/Documents/Codex/2026-10-30/what/outputs/experiment-f-v3-59219018/FINAL_RESULTS.md"
+  },
+  "code_hash": "2a12bc7c3d80df60c1b0c563f3477590f9d4a4f181397458aa8bbba4b3d81f1d",
+  "prompt_version": "science-gspo-g-native-thinking-v1",
+  "rubric_version": "science-gspo-g-accuracy-reference-free-native-trace-v1",
+  "completion_format_version": "native-thinking-plain-final-v1",
+  "rubric_hash": "9dae096e60386f148c78de6b921fdf2f2699ca13f9677b929371a1865500a683",
+  "wheel": {
+    "path": "dist/science_gspo_g-0.1.0-py3-none-any.whl",
+    "sha256": "e90b3ea862bfad2416323a116b257912cc328a435c61364a26e90dc3be56ca0d"
+  },
+  "not_performed": [
+    "GPU execution",
+    "live Jev requests",
+    "model or dataset downloads",
+    "new data eligibility calculation",
+    "training",
+    "held-out evaluation",
+    "cloud changes"
+  ]
+}

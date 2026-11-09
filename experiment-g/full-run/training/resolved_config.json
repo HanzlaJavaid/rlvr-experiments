@@ -1,0 +1,130 @@
+{
+  "run_name": "science_G_full_qwen35_4b_4x5090_v1",
+  "paths": {
+    "output_dir": "./runs_g",
+    "data_dir": "./data/science_g_qwen35_v1"
+  },
+  "model": {
+    "name": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "max_prompt_tokens": 8192,
+    "max_reference_tokens": 8192,
+    "attention_implementation": "sdpa",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "loader": "qwen3_5_text",
+    "language_model_only": true
+  },
+  "data": {
+    "dataset": "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k",
+    "file": "full_train.jsonl",
+    "revision": "f0330e0ca46469b3928adef18c2b55f9476d6bd3",
+    "categories": [
+      "biology",
+      "chemistry",
+      "earth_science",
+      "geography",
+      "math",
+      "medicine",
+      "physics",
+      "science"
+    ],
+    "split_seed": 42,
+    "train_fraction": 0.75,
+    "dev_fraction": 0.1
+  },
+  "training": {
+    "seed": 42,
+    "epochs": 1.0,
+    "global_batch_size": 64,
+    "microbatch_per_gpu": 1,
+    "num_generations": 4,
+    "learning_rate": 2e-06,
+    "warmup_ratio": 0.03,
+    "beta": 0.01,
+    "loss_type": "grpo",
+    "scale_rewards": "group",
+    "aggregation": "sum_then_normalize",
+    "reward_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "gradient_checkpointing": true,
+    "logging_steps": 1,
+    "save_steps": 10,
+    "save_total_limit": 3,
+    "distributed_timeout_seconds": 7200,
+    "process_weight": 0.25,
+    "advantage_std_floor": 0.1,
+    "process_z_clip": 2.0,
+    "epsilon": 0.0003,
+    "epsilon_high": 0.0004,
+    "importance_sampling_level": "sequence",
+    "max_steps": -1,
+    "lr_scheduler_type": "constant_with_warmup"
+  },
+  "generation": {
+    "max_new_tokens": 8192,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "vllm_gpu_memory_utilization": 0.45,
+    "vllm_enable_sleep_mode": true,
+    "tensor_parallel_size": 1,
+    "vllm_engine": {
+      "max_num_batched_tokens": 8192,
+      "max_num_seqs": 8,
+      "enable_prefix_caching": false,
+      "enable_chunked_prefill": true,
+      "enforce_eager": false,
+      "mamba_cache_mode": "none"
+    },
+    "enable_thinking": true,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "vllm_importance_sampling_correction": true,
+    "vllm_importance_sampling_mode": "token_truncate",
+    "vllm_importance_sampling_clip_max": 3.0
+  },
+  "judge": {
+    "model": "jev-1.14.0",
+    "global_max_concurrency": 16,
+    "timeout_seconds": 60,
+    "max_retries": 4,
+    "retry_deadline_seconds": 180
+  },
+  "evaluation": {
+    "samples_per_prompt": 2,
+    "batch_size_per_rank": 4,
+    "seed": 123,
+    "bootstrap_resamples": 2000,
+    "dev_panel_size": 32,
+    "dev_every_steps": 0,
+    "enabled": false
+  },
+  "wandb": {
+    "project": "science-reasoning-grpo",
+    "entity": null,
+    "mode": "disabled",
+    "log_completion_text": false
+  },
+  "hub": {
+    "repo_id": null,
+    "private": true,
+    "publish_after_training": false,
+    "export_merged_model": false,
+    "include_evaluation_summary": false
+  },
+  "experiment": {
+    "id": "G",
+    "method": "gspo_token",
+    "calibration": false,
+    "comparison_arms": false
+  },
+  "launch": {
+    "timeout_minutes": 1440
+  }
+}

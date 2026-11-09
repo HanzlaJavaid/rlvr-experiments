@@ -1,0 +1,5 @@
+# Install after requirements-runtime.txt so causal-conv1d builds against pinned Torch.
+-c constraints-runtime.txt
+flash-linear-attention==0.6.0
+fla-core==0.6.0
+causal-conv1d==1.7.0

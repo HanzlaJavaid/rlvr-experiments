@@ -1,0 +1,106 @@
+{
+  "questions": 4,
+  "generations": 8,
+  "paired_questions_with_outcome_scores": 2,
+  "mean_paired_outcome_delta": 0.06,
+  "numerically_higher": 1,
+  "numerically_lower": 1,
+  "numerically_tied": 0,
+  "mean_paired_metric_deltas": {
+    "application_quality": 0.0633333333333333,
+    "model_quality": 0.026666666666666616,
+    "scientific_correctness": 0.06,
+    "verification_quality": 0.2516666666666667
+  },
+  "pairs": [
+    {
+      "example_id": "conv_4882_message_2",
+      "category": "physics",
+      "base_status": "malformed",
+      "trained_status": "malformed",
+      "common_outcome_criteria": [],
+      "outcomes_on_common_criteria": {
+        "base": null,
+        "checkpoint_171": null
+      },
+      "outcome_delta": null,
+      "metric_deltas": {
+        "scientific_correctness": null,
+        "model_quality": null,
+        "application_quality": null,
+        "verification_quality": null
+      }
+    },
+    {
+      "example_id": "conv_2500_message_4",
+      "category": "chemistry",
+      "base_status": "complete",
+      "trained_status": "complete",
+      "common_outcome_criteria": [
+        "scientific_correctness"
+      ],
+      "outcomes_on_common_criteria": {
+        "base": 0.4566666666666667,
+        "checkpoint_171": 0.45
+      },
+      "outcome_delta": -0.00666666666666671,
+      "metric_deltas": {
+        "scientific_correctness": -0.00666666666666671,
+        "model_quality": -0.07000000000000006,
+        "application_quality": 0.0,
+        "verification_quality": -0.036666666666666625
+      }
+    },
+    {
+      "example_id": "conv_3371_message_2",
+      "category": "biology",
+      "base_status": "complete",
+      "trained_status": "malformed",
+      "common_outcome_criteria": [],
+      "outcomes_on_common_criteria": {
+        "base": null,
+        "checkpoint_171": null
+      },
+      "outcome_delta": null,
+      "metric_deltas": {
+        "scientific_correctness": null,
+        "model_quality": null,
+        "application_quality": null,
+        "verification_quality": null
+      }
+    },
+    {
+      "example_id": "conv_6474_message_4",
+      "category": "math",
+      "base_status": "complete",
+      "trained_status": "complete",
+      "common_outcome_criteria": [
+        "scientific_correctness"
+      ],
+      "outcomes_on_common_criteria": {
+        "base": 0.58,
+        "checkpoint_171": 0.7066666666666667
+      },
+      "outcome_delta": 0.1266666666666667,
+      "metric_deltas": {
+        "scientific_correctness": 0.1266666666666667,
+        "model_quality": 0.1233333333333333,
+        "application_quality": 0.1266666666666666,
+        "verification_quality": 0.54
+      }
+    }
+  ],
+  "limitations": [
+    "Four questions, one sample per model: exploratory only.",
+    "Identical prompts/decoding and paired seeds; no reward calibration or extra training.",
+    "The same training judge/rubrics are reused; these are not independent scientific gold labels.",
+    "Missing metrics are unavailable, never synthetic zeros; deltas use common available criteria."
+  ],
+  "judge_stats": {
+    "batch_seconds": 1.3326469799503684,
+    "new_requests": 20,
+    "cache_reuses": 0,
+    "failed_requests": 0,
+    "failures": []
+  }
+}

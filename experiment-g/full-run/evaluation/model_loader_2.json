@@ -1,0 +1,14 @@
+{
+  "missing_policy_weights": 0,
+  "mismatched_policy_weights": 0,
+  "ignored_vision_or_mtp_weights": 0,
+  "class": "Qwen3_5ForCausalLM",
+  "model_type": "qwen3_5_text",
+  "vision_loaded": false,
+  "mtp_loaded": false,
+  "parameter_tensors": 426,
+  "training_kernels": "Transformers pinned implementation; GPU forward/backward unverified",
+  "source_architecture": "Qwen3_5ForConditionalGeneration",
+  "source_to_policy_prefix": "model.language_model. -> model.",
+  "gpu_forward_backward_tested": false
+}

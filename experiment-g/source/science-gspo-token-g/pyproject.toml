@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "science-gspo-g"
+version = "0.1.0"
+description = "Experiment G: Qwen3.5-4B GSPO-token with scientific correctness and reference-free Jev whole-thinking-trace process rewards"
+requires-python = ">=3.12,<3.13"
+dependencies = ["PyYAML>=6.0.2,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10", "numpy>=2.0,<3", "torch>=2.6"]
+
+[project.scripts]
+science-gspo-g = "science_gspo_g.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

@@ -1,0 +1,9 @@
+{
+  "mode": "nonmutating_lora_safe_merge_qwen35_text_v1",
+  "adapter": "default",
+  "adapted_linear_layers": 248,
+  "rollout_class": "Qwen3_5ForConditionalGeneration",
+  "vision_loaded": false,
+  "policy_to_checkpoint_prefix": "model. -> model.language_model.",
+  "projection_fusion": "native vLLM QKV/gate-up/GDN loader"
+}

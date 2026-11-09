@@ -1,0 +1,3935 @@
+[
+  {
+    "step": 1,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 53,
+        "mean": 0.6573584905660378
+      },
+      "model_quality": {
+        "scored": 53,
+        "mean": 0.7442767295597484
+      },
+      "scientific_correctness": {
+        "scored": 53,
+        "mean": 0.4930817610062893
+      },
+      "verification_quality": {
+        "scored": 53,
+        "mean": 0.6043396226415094
+      }
+    }
+  },
+  {
+    "step": 2,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6294444444444445
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7123809523809523
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.47246031746031747
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.5275396825396825
+      }
+    }
+  },
+  {
+    "step": 3,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 50,
+        "mean": 0.7101333333333334
+      },
+      "model_quality": {
+        "scored": 50,
+        "mean": 0.778
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5624305555555555
+      },
+      "verification_quality": {
+        "scored": 50,
+        "mean": 0.6345333333333333
+      }
+    }
+  },
+  {
+    "step": 4,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.7060416666666667
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7825694444444444
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5597916666666667
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5426388888888889
+      }
+    }
+  },
+  {
+    "step": 5,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 52,
+        "mean": 0.7013461538461538
+      },
+      "model_quality": {
+        "scored": 52,
+        "mean": 0.7739743589743591
+      },
+      "scientific_correctness": {
+        "scored": 52,
+        "mean": 0.5225
+      },
+      "verification_quality": {
+        "scored": 52,
+        "mean": 0.542948717948718
+      }
+    }
+  },
+  {
+    "step": 6,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 55,
+        "mean": 0.7071515151515151
+      },
+      "model_quality": {
+        "scored": 55,
+        "mean": 0.7981212121212121
+      },
+      "scientific_correctness": {
+        "scored": 55,
+        "mean": 0.6022424242424242
+      },
+      "verification_quality": {
+        "scored": 55,
+        "mean": 0.612
+      }
+    }
+  },
+  {
+    "step": 7,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.6606976744186046
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7384496124031008
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5390697674418604
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.6191472868217054
+      }
+    }
+  },
+  {
+    "step": 8,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.7320833333333333
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.8036666666666668
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.5474166666666667
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.5417500000000001
+      }
+    }
+  },
+  {
+    "step": 9,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6911111111111111
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7598611111111112
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5416312056737589
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.63125
+      }
+    }
+  },
+  {
+    "step": 10,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.6206976744186047
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7193798449612403
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5038759689922481
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.5526356589147287
+      }
+    }
+  },
+  {
+    "step": 11,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 53,
+        "mean": 0.6727044025157233
+      },
+      "model_quality": {
+        "scored": 53,
+        "mean": 0.7456603773584907
+      },
+      "scientific_correctness": {
+        "scored": 53,
+        "mean": 0.5203773584905661
+      },
+      "verification_quality": {
+        "scored": 53,
+        "mean": 0.6366666666666666
+      }
+    }
+  },
+  {
+    "step": 12,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6687500000000001
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7613888888888889
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5288652482269504
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5259722222222222
+      }
+    }
+  },
+  {
+    "step": 13,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6695238095238095
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.7521088435374149
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.5221768707482993
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.6001360544217686
+      }
+    }
+  },
+  {
+    "step": 14,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6863945578231292
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.7489115646258503
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.5554421768707484
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.5616326530612245
+      }
+    }
+  },
+  {
+    "step": 15,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.6885507246376811
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7836231884057971
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5866666666666667
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.5294927536231884
+      }
+    }
+  },
+  {
+    "step": 16,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.6515942028985507
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7221739130434782
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5075
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.602463768115942
+      }
+    }
+  },
+  {
+    "step": 17,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7127659574468085
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7977304964539007
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5644202898550725
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6191489361702128
+      }
+    }
+  },
+  {
+    "step": 18,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.7003333333333333
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.7603333333333333
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.5724166666666667
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.5718333333333334
+      }
+    }
+  },
+  {
+    "step": 19,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.667008547008547
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.7313675213675214
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5520175438596491
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.5862393162393162
+      }
+    }
+  },
+  {
+    "step": 20,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 51,
+        "mean": 0.6748366013071895
+      },
+      "model_quality": {
+        "scored": 51,
+        "mean": 0.7654248366013072
+      },
+      "scientific_correctness": {
+        "scored": 51,
+        "mean": 0.5666666666666668
+      },
+      "verification_quality": {
+        "scored": 51,
+        "mean": 0.6561437908496731
+      }
+    }
+  },
+  {
+    "step": 21,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 33,
+        "mean": 0.666969696969697
+      },
+      "model_quality": {
+        "scored": 33,
+        "mean": 0.7496969696969696
+      },
+      "scientific_correctness": {
+        "scored": 33,
+        "mean": 0.5421212121212121
+      },
+      "verification_quality": {
+        "scored": 33,
+        "mean": 0.5692929292929293
+      }
+    }
+  },
+  {
+    "step": 22,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 53,
+        "mean": 0.6862264150943396
+      },
+      "model_quality": {
+        "scored": 53,
+        "mean": 0.7530817610062893
+      },
+      "scientific_correctness": {
+        "scored": 53,
+        "mean": 0.5397484276729559
+      },
+      "verification_quality": {
+        "scored": 53,
+        "mean": 0.5972327044025157
+      }
+    }
+  },
+  {
+    "step": 23,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 54,
+        "mean": 0.742283950617284
+      },
+      "model_quality": {
+        "scored": 54,
+        "mean": 0.8199382716049383
+      },
+      "scientific_correctness": {
+        "scored": 54,
+        "mean": 0.5887654320987654
+      },
+      "verification_quality": {
+        "scored": 54,
+        "mean": 0.6865432098765432
+      }
+    }
+  },
+  {
+    "step": 24,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.6776515151515151
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.7436363636363637
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5690151515151515
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.5787121212121212
+      }
+    }
+  },
+  {
+    "step": 25,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7023255813953488
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.8009302325581394
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5803174603174603
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.6427131782945736
+      }
+    }
+  },
+  {
+    "step": 26,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7373188405797101
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.8050724637681159
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.566376811594203
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6002173913043478
+      }
+    }
+  },
+  {
+    "step": 27,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.7065185185185185
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.771037037037037
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5428148148148148
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6833333333333333
+      }
+    }
+  },
+  {
+    "step": 28,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.7034959349593496
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7878048780487804
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5649593495934959
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.5560162601626016
+      }
+    }
+  },
+  {
+    "step": 29,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.6931060606060606
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.7406818181818181
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.6237121212121212
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.519090909090909
+      }
+    }
+  },
+  {
+    "step": 30,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 55,
+        "mean": 0.7040606060606062
+      },
+      "model_quality": {
+        "scored": 55,
+        "mean": 0.7736969696969698
+      },
+      "scientific_correctness": {
+        "scored": 55,
+        "mean": 0.5783636363636363
+      },
+      "verification_quality": {
+        "scored": 55,
+        "mean": 0.6207272727272727
+      }
+    }
+  },
+  {
+    "step": 31,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 36,
+        "mean": 0.6691666666666667
+      },
+      "model_quality": {
+        "scored": 36,
+        "mean": 0.7641666666666667
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.5192592592592592
+      },
+      "verification_quality": {
+        "scored": 36,
+        "mean": 0.5394444444444445
+      }
+    }
+  },
+  {
+    "step": 32,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.736736111111111
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.8069444444444445
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5847222222222223
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5027777777777778
+      }
+    }
+  },
+  {
+    "step": 33,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6601388888888889
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7565277777777778
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5317021276595745
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.591875
+      }
+    }
+  },
+  {
+    "step": 34,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 51,
+        "mean": 0.6439215686274509
+      },
+      "model_quality": {
+        "scored": 51,
+        "mean": 0.7240522875816994
+      },
+      "scientific_correctness": {
+        "scored": 51,
+        "mean": 0.5249019607843137
+      },
+      "verification_quality": {
+        "scored": 51,
+        "mean": 0.5326797385620915
+      }
+    }
+  },
+  {
+    "step": 35,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 34,
+        "mean": 0.7330392156862745
+      },
+      "model_quality": {
+        "scored": 34,
+        "mean": 0.8019607843137254
+      },
+      "scientific_correctness": {
+        "scored": 33,
+        "mean": 0.585050505050505
+      },
+      "verification_quality": {
+        "scored": 34,
+        "mean": 0.5995098039215686
+      }
+    }
+  },
+  {
+    "step": 36,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.6650406504065041
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7485365853658537
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5021951219512195
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6242276422764228
+      }
+    }
+  },
+  {
+    "step": 37,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6097959183673469
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.7025170068027211
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.4717006802721088
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.5410884353741496
+      }
+    }
+  },
+  {
+    "step": 38,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 52,
+        "mean": 0.6864102564102564
+      },
+      "model_quality": {
+        "scored": 52,
+        "mean": 0.7607692307692309
+      },
+      "scientific_correctness": {
+        "scored": 51,
+        "mean": 0.5633986928104575
+      },
+      "verification_quality": {
+        "scored": 52,
+        "mean": 0.7106410256410256
+      }
+    }
+  },
+  {
+    "step": 39,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7045652173913043
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7930434782608695
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.536304347826087
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6563768115942029
+      }
+    }
+  },
+  {
+    "step": 40,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7229710144927537
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7982608695652174
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5947101449275362
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6545652173913044
+      }
+    }
+  },
+  {
+    "step": 41,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7089147286821705
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7753488372093024
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5733333333333334
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.5589147286821705
+      }
+    }
+  },
+  {
+    "step": 42,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.6465714285714286
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.7446666666666667
+      },
+      "scientific_correctness": {
+        "scored": 35,
+        "mean": 0.5776190476190476
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.5106666666666667
+      }
+    }
+  },
+  {
+    "step": 43,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.7524444444444445
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7974814814814815
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.601969696969697
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6854814814814815
+      }
+    }
+  },
+  {
+    "step": 44,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6961904761904761
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7614285714285715
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5514285714285714
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.5892857142857143
+      }
+    }
+  },
+  {
+    "step": 45,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.6611711711711712
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.7311711711711713
+      },
+      "scientific_correctness": {
+        "scored": 35,
+        "mean": 0.578
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.581981981981982
+      }
+    }
+  },
+  {
+    "step": 46,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.7329166666666667
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7794444444444445
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5669503546099292
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.646875
+      }
+    }
+  },
+  {
+    "step": 47,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.6432520325203253
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7416260162601626
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.4948780487804878
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6692682926829269
+      }
+    }
+  },
+  {
+    "step": 48,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6468253968253969
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.773968253968254
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5369918699186992
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.6359523809523809
+      }
+    }
+  },
+  {
+    "step": 49,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.6701418439716312
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7595035460992907
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5428260869565217
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6400709219858156
+      }
+    }
+  },
+  {
+    "step": 50,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 53,
+        "mean": 0.6768553459119497
+      },
+      "model_quality": {
+        "scored": 53,
+        "mean": 0.7520125786163523
+      },
+      "scientific_correctness": {
+        "scored": 53,
+        "mean": 0.5449685534591195
+      },
+      "verification_quality": {
+        "scored": 53,
+        "mean": 0.609496855345912
+      }
+    }
+  },
+  {
+    "step": 51,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.735111111111111
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.8073333333333333
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5496296296296297
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6603703703703704
+      }
+    }
+  },
+  {
+    "step": 52,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7299099099099099
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.8075675675675675
+      },
+      "scientific_correctness": {
+        "scored": 37,
+        "mean": 0.5657657657657658
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.6245045045045045
+      }
+    }
+  },
+  {
+    "step": 53,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 53,
+        "mean": 0.6757232704402516
+      },
+      "model_quality": {
+        "scored": 53,
+        "mean": 0.7594339622641509
+      },
+      "scientific_correctness": {
+        "scored": 53,
+        "mean": 0.5123899371069183
+      },
+      "verification_quality": {
+        "scored": 53,
+        "mean": 0.6581132075471698
+      }
+    }
+  },
+  {
+    "step": 54,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6863888888888888
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7699305555555555
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.54
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5988194444444445
+      }
+    }
+  },
+  {
+    "step": 55,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.6951449275362319
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.778840579710145
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.4934782608695652
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6510144927536231
+      }
+    }
+  },
+  {
+    "step": 56,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6167361111111112
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7111111111111111
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5500694444444444
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5622222222222223
+      }
+    }
+  },
+  {
+    "step": 57,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6469444444444444
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7365972222222222
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5640277777777778
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5541666666666667
+      }
+    }
+  },
+  {
+    "step": 58,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.689861111111111
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7767361111111111
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5474468085106383
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.5832638888888889
+      }
+    }
+  },
+  {
+    "step": 59,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.6605982905982906
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.7505982905982906
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.5222222222222223
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.6088034188034188
+      }
+    }
+  },
+  {
+    "step": 60,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7295348837209302
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7891472868217053
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5606349206349206
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.640232558139535
+      }
+    }
+  },
+  {
+    "step": 61,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7092198581560284
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7908510638297873
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5653623188405797
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.5897872340425532
+      }
+    }
+  },
+  {
+    "step": 62,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.6447517730496454
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.735177304964539
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5253623188405797
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6090780141843971
+      }
+    }
+  },
+  {
+    "step": 63,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7016312056737589
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7559574468085106
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5690070921985816
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.5950354609929078
+      }
+    }
+  },
+  {
+    "step": 64,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.6795726495726496
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.7715384615384615
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.5472649572649573
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.6276068376068376
+      }
+    }
+  },
+  {
+    "step": 65,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6406802721088436
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.744421768707483
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.509047619047619
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.5855782312925171
+      }
+    }
+  },
+  {
+    "step": 66,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.7218181818181818
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.7912121212121211
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5755303030303031
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.6252272727272727
+      }
+    }
+  },
+  {
+    "step": 67,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7808695652173914
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.8434057971014493
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.6229710144927536
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6393478260869565
+      }
+    }
+  },
+  {
+    "step": 68,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6735714285714286
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7515079365079365
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.4851587301587301
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.6276984126984126
+      }
+    }
+  },
+  {
+    "step": 69,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.7185714285714285
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.782063492063492
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5869841269841269
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.6526190476190477
+      }
+    }
+  },
+  {
+    "step": 70,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.6217829457364341
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7280620155038761
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5315079365079365
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.6295348837209302
+      }
+    }
+  },
+  {
+    "step": 71,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.6838518518518518
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7889629629629629
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5519696969696969
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6795555555555556
+      }
+    }
+  },
+  {
+    "step": 72,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.7448780487804878
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.8186178861788618
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.57175
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6968292682926829
+      }
+    }
+  },
+  {
+    "step": 73,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6508843537414967
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.7407482993197279
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.51125
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.5796598639455782
+      }
+    }
+  },
+  {
+    "step": 74,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7221014492753624
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.8063768115942029
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5651449275362319
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6611594202898551
+      }
+    }
+  },
+  {
+    "step": 75,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.668639455782313
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.749251700680272
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.5562585034013605
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.6161904761904762
+      }
+    }
+  },
+  {
+    "step": 76,
+    "completions": 64,
+    "judge_failures": 179,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 77,
+    "completions": 64,
+    "judge_failures": 190,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 78,
+    "completions": 64,
+    "judge_failures": 188,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 79,
+    "completions": 64,
+    "judge_failures": 187,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 80,
+    "completions": 64,
+    "judge_failures": 150,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 81,
+    "completions": 64,
+    "judge_failures": 211,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 82,
+    "completions": 64,
+    "judge_failures": 165,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 83,
+    "completions": 64,
+    "judge_failures": 191,
+    "rewards": {
+      "application_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "model_quality": {
+        "scored": 0,
+        "mean": null
+      },
+      "scientific_correctness": {
+        "scored": 0,
+        "mean": null
+      },
+      "verification_quality": {
+        "scored": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "step": 84,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7096376811594203
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7942028985507246
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5389855072463768
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6733333333333333
+      }
+    }
+  },
+  {
+    "step": 85,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.67825
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.7630833333333333
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5513157894736842
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.6279166666666667
+      }
+    }
+  },
+  {
+    "step": 86,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.6747407407407408
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.74
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5364444444444445
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6422222222222221
+      }
+    }
+  },
+  {
+    "step": 87,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.6839130434782609
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.761304347826087
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5496296296296297
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.5489855072463768
+      }
+    }
+  },
+  {
+    "step": 88,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.692439024390244
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7867479674796748
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5579824561403509
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6855284552845529
+      }
+    }
+  },
+  {
+    "step": 89,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 51,
+        "mean": 0.7059477124183006
+      },
+      "model_quality": {
+        "scored": 51,
+        "mean": 0.7906535947712418
+      },
+      "scientific_correctness": {
+        "scored": 51,
+        "mean": 0.539281045751634
+      },
+      "verification_quality": {
+        "scored": 51,
+        "mean": 0.6343137254901962
+      }
+    }
+  },
+  {
+    "step": 90,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.6654814814814815
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7627407407407407
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5256818181818181
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6687407407407407
+      }
+    }
+  },
+  {
+    "step": 91,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7233333333333334
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.7954954954954955
+      },
+      "scientific_correctness": {
+        "scored": 37,
+        "mean": 0.5907207207207207
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.5932432432432432
+      }
+    }
+  },
+  {
+    "step": 92,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 51,
+        "mean": 0.6861437908496731
+      },
+      "model_quality": {
+        "scored": 51,
+        "mean": 0.7779738562091504
+      },
+      "scientific_correctness": {
+        "scored": 51,
+        "mean": 0.5360130718954248
+      },
+      "verification_quality": {
+        "scored": 51,
+        "mean": 0.7006535947712419
+      }
+    }
+  },
+  {
+    "step": 93,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.7133333333333334
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.8090277777777778
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5526388888888889
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.6381249999999999
+      }
+    }
+  },
+  {
+    "step": 94,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 50,
+        "mean": 0.7260666666666666
+      },
+      "model_quality": {
+        "scored": 50,
+        "mean": 0.8222666666666667
+      },
+      "scientific_correctness": {
+        "scored": 50,
+        "mean": 0.5974666666666667
+      },
+      "verification_quality": {
+        "scored": 50,
+        "mean": 0.7292666666666666
+      }
+    }
+  },
+  {
+    "step": 95,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.7352777777777778
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.8224305555555556
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5693055555555556
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.6863194444444445
+      }
+    }
+  },
+  {
+    "step": 96,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 36,
+        "mean": 0.6870370370370371
+      },
+      "model_quality": {
+        "scored": 36,
+        "mean": 0.7669444444444444
+      },
+      "scientific_correctness": {
+        "scored": 35,
+        "mean": 0.587047619047619
+      },
+      "verification_quality": {
+        "scored": 36,
+        "mean": 0.6181481481481481
+      }
+    }
+  },
+  {
+    "step": 97,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.6305714285714286
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.7228571428571429
+      },
+      "scientific_correctness": {
+        "scored": 34,
+        "mean": 0.4818627450980392
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.6579047619047619
+      }
+    }
+  },
+  {
+    "step": 98,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7255038759689922
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7810077519379846
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5608527131782945
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.7302325581395348
+      }
+    }
+  },
+  {
+    "step": 99,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.7103030303030303
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.798030303030303
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5927906976744186
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.6872727272727273
+      }
+    }
+  },
+  {
+    "step": 100,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7161240310077519
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.798062015503876
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5287596899224807
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.7311627906976743
+      }
+    }
+  },
+  {
+    "step": 101,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7182608695652174
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.8059420289855072
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5452592592592592
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6513768115942029
+      }
+    }
+  },
+  {
+    "step": 102,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.7103252032520325
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7859349593495936
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5436585365853658
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6471544715447154
+      }
+    }
+  },
+  {
+    "step": 103,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 33,
+        "mean": 0.635959595959596
+      },
+      "model_quality": {
+        "scored": 33,
+        "mean": 0.7427272727272728
+      },
+      "scientific_correctness": {
+        "scored": 32,
+        "mean": 0.4867708333333333
+      },
+      "verification_quality": {
+        "scored": 33,
+        "mean": 0.5476767676767677
+      }
+    }
+  },
+  {
+    "step": 104,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6480158730158729
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7332539682539683
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.563739837398374
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.5884126984126985
+      }
+    }
+  },
+  {
+    "step": 105,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.6768217054263566
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.7634883720930232
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.5531666666666666
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.7255038759689922
+      }
+    }
+  },
+  {
+    "step": 106,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.7175396825396826
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.796031746031746
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5598412698412698
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.7151587301587301
+      }
+    }
+  },
+  {
+    "step": 107,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.6850370370370371
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7705925925925926
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.5168939393939394
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.6332592592592593
+      }
+    }
+  },
+  {
+    "step": 108,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.7314529914529915
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.8164102564102564
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.5644444444444444
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.6855555555555555
+      }
+    }
+  },
+  {
+    "step": 109,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.7165909090909092
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.7731060606060606
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5596124031007752
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.6662878787878788
+      }
+    }
+  },
+  {
+    "step": 110,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.6866666666666666
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.7887121212121212
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5267441860465116
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.6207575757575757
+      }
+    }
+  },
+  {
+    "step": 111,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.7211428571428571
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.8092380952380953
+      },
+      "scientific_correctness": {
+        "scored": 34,
+        "mean": 0.5994117647058823
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.681047619047619
+      }
+    }
+  },
+  {
+    "step": 112,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 31,
+        "mean": 0.7610752688172043
+      },
+      "model_quality": {
+        "scored": 31,
+        "mean": 0.8410752688172043
+      },
+      "scientific_correctness": {
+        "scored": 31,
+        "mean": 0.5908602150537634
+      },
+      "verification_quality": {
+        "scored": 31,
+        "mean": 0.6676344086021505
+      }
+    }
+  },
+  {
+    "step": 113,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7016312056737589
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7839007092198582
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5274074074074074
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.7821985815602838
+      }
+    }
+  },
+  {
+    "step": 114,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.7034027777777778
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.79625
+      },
+      "scientific_correctness": {
+        "scored": 48,
+        "mean": 0.5457638888888888
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.6645833333333333
+      }
+    }
+  },
+  {
+    "step": 115,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.6838333333333333
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.7753333333333333
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.5082500000000001
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.6703333333333333
+      }
+    }
+  },
+  {
+    "step": 116,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.73
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.8139316239316239
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.5776923076923077
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.6704273504273505
+      }
+    }
+  },
+  {
+    "step": 117,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 38,
+        "mean": 0.732280701754386
+      },
+      "model_quality": {
+        "scored": 38,
+        "mean": 0.8074561403508772
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5585087719298245
+      },
+      "verification_quality": {
+        "scored": 38,
+        "mean": 0.7082456140350878
+      }
+    }
+  },
+  {
+    "step": 118,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.7522962962962962
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.8245185185185184
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5864444444444444
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.7417037037037036
+      }
+    }
+  },
+  {
+    "step": 119,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.6453900709219857
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7348936170212765
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5435507246376812
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6226241134751773
+      }
+    }
+  },
+  {
+    "step": 120,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 52,
+        "mean": 0.6641666666666667
+      },
+      "model_quality": {
+        "scored": 52,
+        "mean": 0.7478846153846154
+      },
+      "scientific_correctness": {
+        "scored": 52,
+        "mean": 0.5366025641025641
+      },
+      "verification_quality": {
+        "scored": 52,
+        "mean": 0.6403846153846153
+      }
+    }
+  },
+  {
+    "step": 121,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 32,
+        "mean": 0.6892708333333333
+      },
+      "model_quality": {
+        "scored": 32,
+        "mean": 0.7635416666666667
+      },
+      "scientific_correctness": {
+        "scored": 32,
+        "mean": 0.5888541666666667
+      },
+      "verification_quality": {
+        "scored": 32,
+        "mean": 0.6159375
+      }
+    }
+  },
+  {
+    "step": 122,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.6773333333333333
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.7785
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.5565811965811965
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.6444166666666666
+      }
+    }
+  },
+  {
+    "step": 123,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.6736805555555555
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.7809722222222222
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5710869565217391
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.6844444444444444
+      }
+    }
+  },
+  {
+    "step": 124,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.674047619047619
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7449206349206349
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.49991869918699183
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.6346825396825396
+      }
+    }
+  },
+  {
+    "step": 125,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 50,
+        "mean": 0.7458
+      },
+      "model_quality": {
+        "scored": 50,
+        "mean": 0.8241333333333333
+      },
+      "scientific_correctness": {
+        "scored": 49,
+        "mean": 0.598843537414966
+      },
+      "verification_quality": {
+        "scored": 50,
+        "mean": 0.7842
+      }
+    }
+  },
+  {
+    "step": 126,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.67
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7575362318840579
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5113043478260869
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.5847826086956522
+      }
+    }
+  },
+  {
+    "step": 127,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.6912195121951219
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7869105691056911
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.5428333333333334
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.6659349593495936
+      }
+    }
+  },
+  {
+    "step": 128,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7114728682170542
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.8194573643410852
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5453658536585366
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.6827131782945736
+      }
+    }
+  },
+  {
+    "step": 129,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.7286394557823129
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.8125850340136055
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.550709219858156
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.6912244897959183
+      }
+    }
+  },
+  {
+    "step": 130,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 33,
+        "mean": 0.6956565656565656
+      },
+      "model_quality": {
+        "scored": 33,
+        "mean": 0.7887878787878788
+      },
+      "scientific_correctness": {
+        "scored": 33,
+        "mean": 0.5827272727272728
+      },
+      "verification_quality": {
+        "scored": 33,
+        "mean": 0.674040404040404
+      }
+    }
+  },
+  {
+    "step": 131,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 36,
+        "mean": 0.6972222222222223
+      },
+      "model_quality": {
+        "scored": 36,
+        "mean": 0.7963888888888888
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.5506481481481482
+      },
+      "verification_quality": {
+        "scored": 36,
+        "mean": 0.6566666666666667
+      }
+    }
+  },
+  {
+    "step": 132,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.6250833333333333
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.7315833333333334
+      },
+      "scientific_correctness": {
+        "scored": 40,
+        "mean": 0.49191666666666667
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.6649166666666667
+      }
+    }
+  },
+  {
+    "step": 133,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 36,
+        "mean": 0.7333333333333333
+      },
+      "model_quality": {
+        "scored": 36,
+        "mean": 0.8358333333333333
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.5413888888888888
+      },
+      "verification_quality": {
+        "scored": 36,
+        "mean": 0.799074074074074
+      }
+    }
+  },
+  {
+    "step": 134,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7444144144144144
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.8040540540540541
+      },
+      "scientific_correctness": {
+        "scored": 37,
+        "mean": 0.5637837837837838
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.7466666666666666
+      }
+    }
+  },
+  {
+    "step": 135,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.7424444444444446
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.8012592592592592
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5644444444444444
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.7411111111111112
+      }
+    }
+  },
+  {
+    "step": 136,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7078014184397163
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.8017021276595745
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5552482269503546
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6697163120567375
+      }
+    }
+  },
+  {
+    "step": 137,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.6794074074074075
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7697777777777778
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5002222222222222
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.7202962962962963
+      }
+    }
+  },
+  {
+    "step": 138,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7178985507246377
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.7949275362318842
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.6044927536231884
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.6956521739130435
+      }
+    }
+  },
+  {
+    "step": 139,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 26,
+        "mean": 0.7321794871794871
+      },
+      "model_quality": {
+        "scored": 26,
+        "mean": 0.8070512820512821
+      },
+      "scientific_correctness": {
+        "scored": 26,
+        "mean": 0.5166666666666667
+      },
+      "verification_quality": {
+        "scored": 26,
+        "mean": 0.7328205128205129
+      }
+    }
+  },
+  {
+    "step": 140,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 38,
+        "mean": 0.7300877192982456
+      },
+      "model_quality": {
+        "scored": 38,
+        "mean": 0.8128070175438596
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5417543859649122
+      },
+      "verification_quality": {
+        "scored": 38,
+        "mean": 0.7139473684210526
+      }
+    }
+  },
+  {
+    "step": 141,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 45,
+        "mean": 0.7328148148148148
+      },
+      "model_quality": {
+        "scored": 45,
+        "mean": 0.7728148148148147
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5488148148148148
+      },
+      "verification_quality": {
+        "scored": 45,
+        "mean": 0.7015555555555556
+      }
+    }
+  },
+  {
+    "step": 142,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7006306306306306
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.7846846846846847
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.5433333333333333
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.7333333333333333
+      }
+    }
+  },
+  {
+    "step": 143,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 36,
+        "mean": 0.6979629629629629
+      },
+      "model_quality": {
+        "scored": 36,
+        "mean": 0.7843518518518519
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.6107407407407408
+      },
+      "verification_quality": {
+        "scored": 36,
+        "mean": 0.7401851851851853
+      }
+    }
+  },
+  {
+    "step": 144,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.7070940170940171
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.8138461538461538
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.4848148148148148
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.8027350427350427
+      }
+    }
+  },
+  {
+    "step": 145,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.7184761904761905
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.8013333333333333
+      },
+      "scientific_correctness": {
+        "scored": 35,
+        "mean": 0.6057142857142856
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.7061904761904761
+      }
+    }
+  },
+  {
+    "step": 146,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 41,
+        "mean": 0.6686991869918699
+      },
+      "model_quality": {
+        "scored": 41,
+        "mean": 0.7622764227642277
+      },
+      "scientific_correctness": {
+        "scored": 41,
+        "mean": 0.5139024390243903
+      },
+      "verification_quality": {
+        "scored": 41,
+        "mean": 0.7017886178861789
+      }
+    }
+  },
+  {
+    "step": 147,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7295348837209302
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.8144186046511629
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5593798449612404
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.7252713178294574
+      }
+    }
+  },
+  {
+    "step": 148,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 46,
+        "mean": 0.7046376811594203
+      },
+      "model_quality": {
+        "scored": 46,
+        "mean": 0.779927536231884
+      },
+      "scientific_correctness": {
+        "scored": 46,
+        "mean": 0.5482608695652174
+      },
+      "verification_quality": {
+        "scored": 46,
+        "mean": 0.7553623188405798
+      }
+    }
+  },
+  {
+    "step": 149,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 49,
+        "mean": 0.6597959183673469
+      },
+      "model_quality": {
+        "scored": 49,
+        "mean": 0.7407482993197279
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5275177304964539
+      },
+      "verification_quality": {
+        "scored": 49,
+        "mean": 0.6784353741496598
+      }
+    }
+  },
+  {
+    "step": 150,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.7593162393162393
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.8330769230769232
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5449122807017543
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.7552136752136752
+      }
+    }
+  },
+  {
+    "step": 151,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.6943243243243243
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.7772972972972974
+      },
+      "scientific_correctness": {
+        "scored": 34,
+        "mean": 0.5068627450980392
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.7092792792792793
+      }
+    }
+  },
+  {
+    "step": 152,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.733798449612403
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.8126356589147288
+      },
+      "scientific_correctness": {
+        "scored": 43,
+        "mean": 0.5727906976744186
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.7603100775193798
+      }
+    }
+  },
+  {
+    "step": 153,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 44,
+        "mean": 0.761060606060606
+      },
+      "model_quality": {
+        "scored": 44,
+        "mean": 0.8193939393939395
+      },
+      "scientific_correctness": {
+        "scored": 44,
+        "mean": 0.6040151515151515
+      },
+      "verification_quality": {
+        "scored": 44,
+        "mean": 0.701060606060606
+      }
+    }
+  },
+  {
+    "step": 154,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.72
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.8021276595744682
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5373758865248227
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.7325531914893617
+      }
+    }
+  },
+  {
+    "step": 155,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7434234234234235
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.8274774774774775
+      },
+      "scientific_correctness": {
+        "scored": 37,
+        "mean": 0.5621621621621622
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.7951351351351351
+      }
+    }
+  },
+  {
+    "step": 156,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 50,
+        "mean": 0.6923333333333334
+      },
+      "model_quality": {
+        "scored": 50,
+        "mean": 0.7768666666666667
+      },
+      "scientific_correctness": {
+        "scored": 50,
+        "mean": 0.5540666666666667
+      },
+      "verification_quality": {
+        "scored": 50,
+        "mean": 0.6875333333333333
+      }
+    }
+  },
+  {
+    "step": 157,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 43,
+        "mean": 0.7415503875968992
+      },
+      "model_quality": {
+        "scored": 43,
+        "mean": 0.8183720930232558
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.586068376068376
+      },
+      "verification_quality": {
+        "scored": 43,
+        "mean": 0.645891472868217
+      }
+    }
+  },
+  {
+    "step": 158,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.707304964539007
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7912056737588653
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.5198581560283688
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.6528368794326241
+      }
+    }
+  },
+  {
+    "step": 159,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 34,
+        "mean": 0.6835294117647059
+      },
+      "model_quality": {
+        "scored": 34,
+        "mean": 0.7884313725490196
+      },
+      "scientific_correctness": {
+        "scored": 30,
+        "mean": 0.581
+      },
+      "verification_quality": {
+        "scored": 34,
+        "mean": 0.7387254901960785
+      }
+    }
+  },
+  {
+    "step": 160,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.6679999999999999
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.7472380952380953
+      },
+      "scientific_correctness": {
+        "scored": 34,
+        "mean": 0.5575490196078432
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.6854285714285714
+      }
+    }
+  },
+  {
+    "step": 161,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 39,
+        "mean": 0.7023076923076923
+      },
+      "model_quality": {
+        "scored": 39,
+        "mean": 0.7935897435897435
+      },
+      "scientific_correctness": {
+        "scored": 38,
+        "mean": 0.5923684210526317
+      },
+      "verification_quality": {
+        "scored": 39,
+        "mean": 0.677008547008547
+      }
+    }
+  },
+  {
+    "step": 162,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 50,
+        "mean": 0.7096666666666667
+      },
+      "model_quality": {
+        "scored": 50,
+        "mean": 0.8042
+      },
+      "scientific_correctness": {
+        "scored": 50,
+        "mean": 0.5426666666666666
+      },
+      "verification_quality": {
+        "scored": 50,
+        "mean": 0.6077333333333333
+      }
+    }
+  },
+  {
+    "step": 163,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 33,
+        "mean": 0.7605050505050506
+      },
+      "model_quality": {
+        "scored": 33,
+        "mean": 0.8342424242424242
+      },
+      "scientific_correctness": {
+        "scored": 32,
+        "mean": 0.54
+      },
+      "verification_quality": {
+        "scored": 33,
+        "mean": 0.7357575757575758
+      }
+    }
+  },
+  {
+    "step": 164,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 47,
+        "mean": 0.7219148936170213
+      },
+      "model_quality": {
+        "scored": 47,
+        "mean": 0.7931914893617021
+      },
+      "scientific_correctness": {
+        "scored": 45,
+        "mean": 0.5506666666666666
+      },
+      "verification_quality": {
+        "scored": 47,
+        "mean": 0.675177304964539
+      }
+    }
+  },
+  {
+    "step": 165,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 48,
+        "mean": 0.711388888888889
+      },
+      "model_quality": {
+        "scored": 48,
+        "mean": 0.8013888888888889
+      },
+      "scientific_correctness": {
+        "scored": 47,
+        "mean": 0.6009929078014185
+      },
+      "verification_quality": {
+        "scored": 48,
+        "mean": 0.6934722222222223
+      }
+    }
+  },
+  {
+    "step": 166,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 40,
+        "mean": 0.7840833333333334
+      },
+      "model_quality": {
+        "scored": 40,
+        "mean": 0.8616666666666667
+      },
+      "scientific_correctness": {
+        "scored": 39,
+        "mean": 0.6282905982905983
+      },
+      "verification_quality": {
+        "scored": 40,
+        "mean": 0.7490833333333333
+      }
+    }
+  },
+  {
+    "step": 167,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.6947747747747748
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.786036036036036
+      },
+      "scientific_correctness": {
+        "scored": 36,
+        "mean": 0.5216666666666667
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.6108108108108108
+      }
+    }
+  },
+  {
+    "step": 168,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 35,
+        "mean": 0.7221904761904762
+      },
+      "model_quality": {
+        "scored": 35,
+        "mean": 0.8093333333333333
+      },
+      "scientific_correctness": {
+        "scored": 34,
+        "mean": 0.6024509803921569
+      },
+      "verification_quality": {
+        "scored": 35,
+        "mean": 0.7327619047619048
+      }
+    }
+  },
+  {
+    "step": 169,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.6852380952380953
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.7823809523809524
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.5664285714285714
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.6501587301587302
+      }
+    }
+  },
+  {
+    "step": 170,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 37,
+        "mean": 0.7502702702702703
+      },
+      "model_quality": {
+        "scored": 37,
+        "mean": 0.8245045045045045
+      },
+      "scientific_correctness": {
+        "scored": 37,
+        "mean": 0.5836036036036036
+      },
+      "verification_quality": {
+        "scored": 37,
+        "mean": 0.7463063063063063
+      }
+    }
+  },
+  {
+    "step": 171,
+    "completions": 64,
+    "judge_failures": 0,
+    "rewards": {
+      "application_quality": {
+        "scored": 42,
+        "mean": 0.7346825396825396
+      },
+      "model_quality": {
+        "scored": 42,
+        "mean": 0.8157936507936508
+      },
+      "scientific_correctness": {
+        "scored": 42,
+        "mean": 0.6057936507936509
+      },
+      "verification_quality": {
+        "scored": 42,
+        "mean": 0.8088888888888888
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+# Linux x86_64 / Python 3.12. Install in a fresh virtual environment.
+# vLLM wheels contain compiled Torch integrations: keep these two pins together.
+-c constraints-runtime.txt
+
+torch==2.13.0
+vllm==0.30.0
+transformers==5.20.2
+trl==1.17.0
+peft==0.21.2
+accelerate==1.15.0
+typesafe-sdk==0.7.5
+datasets==5.1.0
+huggingface-hub==2.4.0
+numpy==2.3.5
+PyYAML==6.0.3
+
+# TRL/vLLM runtime dependencies needed by this application are also pinned here.
+# Transitive version constraints are retained from a successful Linux/Python3.12
+# pip resolver run. The actual installed environment is also recorded at runtime.
+pandas==3.1.0
+aiohttp==3.13.3

@@ -1,0 +1,56 @@
+{
+  "format": "science-g-paired-dev-4-final171-v1",
+  "started_utc": "2026-11-09T21:03:21.499571+00:00",
+  "evaluator_source_sha256": "9d54b035786601ee91df53f5069c899147c03d85317c6cfd0a8fad5b56118f32",
+  "training_protocol_hash": "dd1b6079315915d6e0716314b3441304281e7a905851a0d10bc04d28ed1e0c95",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "checkpoint": "final_adapter_step_171",
+  "checkpoint_policy_sha256": "5960eed8b5c0028ba6bc4a507f89858d746631b1df77c6f600e5ffe87509f61d",
+  "initial_policy_sha256": "2e61b4b77b51b4f532203db8d657c8dab069f2dc1ed33f4d2f8b541f53f7f9c5",
+  "question_ids": [
+    "conv_4882_message_2",
+    "conv_2500_message_4",
+    "conv_3371_message_2",
+    "conv_6474_message_4"
+  ],
+  "selection": "Exact four Experiment F questions and references, verified by SHA-256 and held out in G",
+  "arms": [
+    "base",
+    "checkpoint_171"
+  ],
+  "subject_prompts_identical_between_arms": true,
+  "reference_in_policy_prompt": false,
+  "seeds": [
+    123,
+    124,
+    125,
+    126
+  ],
+  "generation": {
+    "max_new_tokens": 8192,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "vllm_gpu_memory_utilization": 0.45,
+    "vllm_enable_sleep_mode": true,
+    "tensor_parallel_size": 1,
+    "vllm_engine": {
+      "max_num_batched_tokens": 8192,
+      "max_num_seqs": 8,
+      "enable_prefix_caching": false,
+      "enable_chunked_prefill": true,
+      "enforce_eager": false,
+      "mamba_cache_mode": "none"
+    },
+    "enable_thinking": true,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "vllm_importance_sampling_correction": true,
+    "vllm_importance_sampling_mode": "token_truncate",
+    "vllm_importance_sampling_clip_max": 3.0
+  },
+  "inference_backend": "G Qwen3.5 text loader, Transformers SDPA, one GPU per question",
+  "comparison_scope": "G prompts and Jev rubrics shared by both arms",
+  "judge_blinding": "Arm labels excluded from judge input and request order shuffled"
+}

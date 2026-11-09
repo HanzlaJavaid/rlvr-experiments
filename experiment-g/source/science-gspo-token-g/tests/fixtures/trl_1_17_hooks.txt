@@ -1,0 +1,65 @@
+# AST-unparsed methods from the exact TRL 1.17.0 wheel.
+# Source SHA256: 28f815d86f6416842debd444dcbd815b4373fe86ad2917e180b4d1780a220605
+# Upstream: https://github.com/huggingface/trl (Apache-2.0).
+
+def _calculate_rewards(self, inputs, prompts, completions, completion_ids_list):
+    device = self.accelerator.device
+    rewards_per_func = torch.zeros(len(prompts), len(self.reward_funcs), device=device)
+    keys = [key for key in inputs[0] if key not in ['prompt', 'completion', 'completion_ids']]
+    reward_kwargs = {key: [example[key] for example in inputs] for key in keys}
+    reward_kwargs['trainer_state'] = self.state
+    reward_kwargs['log_extra'] = self._log_completion_extra
+    reward_kwargs['log_metric'] = self._log_metric
+    if self.environments is not None:
+        reward_kwargs['environments'] = self.environments
+    async_funcs_info = []
+    for i, (reward_func, reward_processing_class, reward_func_name) in enumerate(zip(self.reward_funcs, self.reward_processing_classes, self.reward_func_names, strict=True)):
+        if isinstance(reward_func, nn.Module):
+            with profiling_context(self, reward_func_name):
+                if is_conversational({'prompt': prompts[0]}):
+                    messages = [{'messages': p + c} for p, c in zip(prompts, completions, strict=True)]
+                    texts = [apply_chat_template(x, reward_processing_class, **self.chat_template_kwargs)['text'] for x in messages]
+                else:
+                    texts = [p + c for p, c in zip(prompts, completions, strict=True)]
+                reward_inputs = reward_processing_class(text=texts, return_tensors='pt', padding=True, padding_side='right', add_special_tokens=False)
+                reward_inputs = super()._prepare_inputs(reward_inputs)
+                with torch.inference_mode():
+                    rewards_per_func[:, i] = reward_func(**reward_inputs).logits[:, 0]
+        elif is_async_callable(reward_func):
+            async_funcs_info.append((i, reward_func, reward_func_name))
+        else:
+            with profiling_context(self, reward_func_name):
+                output_reward_func = reward_func(prompts=prompts, completions=completions, completion_ids=completion_ids_list, **reward_kwargs)
+                output_reward_func = [reward if reward is not None else torch.nan for reward in output_reward_func]
+                if len(output_reward_func) != len(prompts):
+                    raise ValueError(f"The reward function '{reward_func_name}' returned {len(output_reward_func)} rewards, but {len(prompts)} were expected (one per prompt-completion pair). Make sure the reward function returns exactly one reward per completion.")
+                rewards_per_func[:, i] = torch.tensor(output_reward_func, dtype=torch.float32, device=device)
+    if async_funcs_info:
+
+        async def _invoke_async(index, func, func_name):
+            with profiling_context(self, func_name):
+                output = await func(prompts=prompts, completions=completions, completion_ids=completion_ids_list, **reward_kwargs)
+                output = [r if r is not None else torch.nan for r in output]
+                if len(output) != len(prompts):
+                    raise ValueError(f"The reward function '{func_name}' returned {len(output)} rewards, but {len(prompts)} were expected (one per prompt-completion pair). Make sure the reward function returns exactly one reward per completion.")
+                return (index, output)
+
+        async def _run_async_funcs():
+            coros = [_invoke_async(i, func, func_name) for i, func, func_name in async_funcs_info]
+            return await asyncio.gather(*coros)
+        async_results = asyncio.run_coroutine_threadsafe(_run_async_funcs(), self.async_loop).result()
+        for idx, output_reward_func in async_results:
+            rewards_per_func[:, idx] = torch.tensor(output_reward_func, dtype=torch.float32, device=device)
+    if torch.isnan(rewards_per_func).all(dim=1).any():
+        nan_row_idx = torch.isnan(rewards_per_func).all(dim=1).nonzero(as_tuple=True)[0][0]
+        row_reward_kwargs = {key: value[nan_row_idx] for key, value in reward_kwargs.items() if key not in ('trainer_state', 'log_extra', 'log_metric')}
+        row_reward_kwargs['prompt'] = prompts[nan_row_idx]
+        row_reward_kwargs['completion'] = completions[nan_row_idx]
+        logger.warning(f'All reward functions returned None for the following kwargs:\n{row_reward_kwargs}\nPlease ensure that at least one reward function returns a valid reward.')
+    rewards_per_func = gather(rewards_per_func)
+    return rewards_per_func
+
+def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
+    if return_outputs:
+        raise ValueError('The GRPOTrainer does not support returning outputs')
+    return self._compute_loss(model, inputs)

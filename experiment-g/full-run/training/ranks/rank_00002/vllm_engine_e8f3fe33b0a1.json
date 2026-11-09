@@ -1,0 +1,44 @@
+{
+  "overrides": {
+    "max_num_batched_tokens": 8192,
+    "max_num_seqs": 8,
+    "enable_prefix_caching": false,
+    "enable_chunked_prefill": true,
+    "enforce_eager": false,
+    "mamba_cache_mode": "none",
+    "language_model_only": true,
+    "model_impl": "vllm"
+  },
+  "constructor_called": true,
+  "requested": {
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": false,
+    "enable_sleep_mode": true,
+    "enforce_eager": false,
+    "gpu_memory_utilization": 0.45,
+    "language_model_only": true,
+    "mamba_cache_mode": "none",
+    "max_model_len": 16384,
+    "max_num_batched_tokens": 8192,
+    "max_num_seqs": 8,
+    "model_impl": "vllm",
+    "tensor_parallel_size": 1
+  },
+  "effective": {
+    "max_num_batched_tokens": 8192,
+    "max_num_seqs": 8,
+    "enable_chunked_prefill": true,
+    "enable_prefix_caching": false,
+    "gpu_memory_utilization": 0.45,
+    "enforce_eager": false,
+    "max_model_len": 16384,
+    "tensor_parallel_size": 1,
+    "mamba_cache_mode": "none",
+    "model_impl": "vllm",
+    "logprobs_mode": "processed_logprobs",
+    "return_sampling_mask": true,
+    "enable_sleep_mode": true,
+    "language_model_only": true,
+    "cudagraph_mode": "FULL_AND_PIECEWISE"
+  }
+}

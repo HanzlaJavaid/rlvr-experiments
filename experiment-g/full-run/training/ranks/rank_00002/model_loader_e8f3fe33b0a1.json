@@ -1,0 +1,19 @@
+{
+  "missing_policy_weights": 0,
+  "mismatched_policy_weights": 0,
+  "ignored_vision_or_mtp_weights": 0,
+  "class": "Qwen3_5ForCausalLM",
+  "model_type": "qwen3_5_text",
+  "vision_loaded": false,
+  "mtp_loaded": false,
+  "parameter_tensors": 426,
+  "training_kernels": {
+    "causal_conv1d_fn": "causal_conv1d.causal_conv1d_interface",
+    "causal_conv1d_update": "causal_conv1d.causal_conv1d_interface",
+    "chunk_gated_delta_rule": "fla.ops.gated_delta_rule.chunk",
+    "fused_recurrent_gated_delta_rule": "fla.ops.gated_delta_rule.fused_recurrent"
+  },
+  "source_architecture": "Qwen3_5ForConditionalGeneration",
+  "source_to_policy_prefix": "model.language_model. -> model.",
+  "gpu_forward_backward_tested": false
+}
